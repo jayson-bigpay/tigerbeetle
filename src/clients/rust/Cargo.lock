@@ -291,7 +291,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "tigerbeetle"
+name = "tigerbeetle_rustclient_tests_snapshot"
 version = "0.1.0"
 dependencies = [
  "anyhow",

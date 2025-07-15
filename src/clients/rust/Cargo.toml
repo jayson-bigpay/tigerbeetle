@@ -1,7 +1,17 @@
+license = "Apache-2.0"
+readme = "README.md"
+description = "WARNING! UNSTABLE AND WILL BE YANKED! Snapshot of official tigerbeetle client before release"
+repository = "https://github.com/jayson-bigpay/tigerbeetle"
+documentation = "https://docs.rs/tigerbeetle-rustclient-tests-snapshot"
+keywords = ["tigerbeetle"]
+categories = ["database"]
+
 [package]
-name = "tigerbeetle"
+name = "tigerbeetle_rustclient_tests_snapshot"
 version = "0.1.0"
 edition = "2021"
+include = ["src/**", "Cargo.toml", "README.md", "LICENSE*"]
+exclude = [".gitignore", "target/", "tests/", "examples/", "samples/"]
 
 [dependencies]
 bitflags = "2.6.0"
